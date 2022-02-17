@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sars-cov2-strain-api"
+version = "0.1.0"
+description = "strain calling api for SARS-CoV-2 genomes"
+authors = ["tmfarrell <tfarrell01@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "0.61.1"
+uvicorn = "0.11.8"
+biopython = ">=1.74"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
