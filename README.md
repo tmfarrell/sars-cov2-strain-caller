@@ -1,5 +1,5 @@
 
-API for calling strains on SARS-CoV-2 genomes
+Identify SARS-CoV-2 strains from genomic data
 
 #### build/ activate local dev environment
 
